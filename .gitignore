@@ -1,2 +1,2 @@
 # 一時的にmainファイルをコミット対象から外す
-/main.command
+./main.command
