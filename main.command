@@ -12,3 +12,5 @@ open -a $APP_PATH $MAIN_PATH/Dock/dock_custom.command # Finder設定
 # 変更の適用
 killall Dock # Dockを再起動する
 killall Finder # Finderを再起動する
+
+# test
