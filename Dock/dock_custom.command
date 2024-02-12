@@ -7,6 +7,8 @@ defaults write com.apple.dock mineffect -string "scale" # 「スケール」
 # Dockのサイズ［PC再起動必須］
 defaults write com.apple.dock -int 46
 
-# 起動中のアプリケーションをアニメーションで表示をOFF
+# アプリアイコンのバウンド設定
+defaults write com.apple.dock no-bouncing -bool TRUE # バウンドアニメーションOFF
+# defaults write com.apple.dock no-bouncing -bool FALSE # バウンドアニメーションON
 
 # アプリの提案と最近使用したアプリをDockに表示をOFF
