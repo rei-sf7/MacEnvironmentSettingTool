@@ -7,7 +7,8 @@ MAIN_PATH="ココにこのコマンドファイルのパスをセットする。
 
 # 設定を開始する
 open -a $APP_PATH $MAIN_PATH/Dock/dock_custom.command # Dock設定
-open -a $APP_PATH $MAIN_PATH/Dock/dock_custom.command # Finder設定
+open -a $APP_PATH $MAIN_PATH/Finder/finder_custom.command # Finder設定
+open -a $APP_PATH $MAIN_PATH/Etc/etc_custom.command # その他設定
 
 # 変更の適用
 killall Dock # Dockを再起動する
