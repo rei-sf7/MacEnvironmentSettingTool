@@ -28,3 +28,5 @@ defaults write com.apple.dock show-recents -bool FALSE # アイコン表示OFF
 # defaults delete com.apple.dock mouse-over-hilite-stack
 defaults write com.apple.dock mouse-over-hilite-stack -bool TRUE # ハイライト表示をON
 # defaults write com.apple.dock mouse-over-hilite-stack -bool FALSE # ハイライト表示をOFF
+
+echo "Dockの設定が完了しました。"

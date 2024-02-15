@@ -19,3 +19,4 @@ defaults write -g com.apple.mouse.doubleClickThreshold 0.5
 # defaults read > before
 # defaults read > after
 # diff before after
+echo "その他関連の設定が完了しました。"
