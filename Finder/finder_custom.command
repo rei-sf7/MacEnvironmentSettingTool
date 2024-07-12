@@ -8,7 +8,4 @@ defaults write com.apple.finder AppleShowAllFiles TRUE # 表示
 defaults write com.apple.finder DisableAllAnimations -bool true # アニメーション無効化
 # defaults write com.apple.finder DisableAllAnimations -bool false # アニメーション有効化
 
-echo "test message."
-echo "test message."
-echo "test message."
 echo "Finderの設定が完了しました。"
